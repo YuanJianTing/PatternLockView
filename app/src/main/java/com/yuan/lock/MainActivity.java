@@ -17,14 +17,13 @@ public class MainActivity extends AppCompatActivity {
 
         patternLockView=findViewById(R.id.lock_view);
 
-        patternLockView.setPatternLockViewListener(new PatternLockView.PatternLockViewListener() {
-            @Override
-            public void onLockEnd(int[] values) {
-                StringBuffer sb=new StringBuffer();
-                for(int i=0;i<values.length;i++)
-                    sb.append(values[i]);
-                Toast.makeText(MainActivity.this,sb.toString(),Toast.LENGTH_SHORT).show();
-            }
+        patternLockView.setPatternLockViewListener((values)->{
+            StringBuffer sb=new StringBuffer();
+            for(int i=0;i<values.length;i++)
+                sb.append(values[i]);
+            Toast.makeText(MainActivity.this,sb.toString(),Toast.LENGTH_SHORT).show();
         });
+
+
     }
 }
