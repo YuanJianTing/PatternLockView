@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="lock_view_selected_color">#e23f40</color>
+    <color name="lock_view_default_color">#8f8f8f</color>
+    <color name="lock_view_text_color">#000</color>
+</resources>
