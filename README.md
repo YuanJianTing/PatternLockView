@@ -7,7 +7,6 @@ private PatternLockView patternLockView;
 
 
 ## ScreenShot ##
-###  PatternLockView
 ![image](https://github.com/YuanJianTing/PatternLockView/blob/master/screenshot/1.gif)
 
 ### Layout example 1 ###
