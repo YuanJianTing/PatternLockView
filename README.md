@@ -7,6 +7,6 @@ private PatternLockView patternLockView;
 
 
 ## 效果图：
-### Form
-![image](https://github.com/YuanJianTing/PatternLockView/blob/master/WinForm.UI/WinForm.UI.Test/screenshot/form.png)
+###  PatternLockView
+![image](https://github.com/YuanJianTing/PatternLockView/blob/master/screenshot/1.gif)
 
